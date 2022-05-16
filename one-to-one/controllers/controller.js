@@ -20,7 +20,7 @@ export const createCustomer = async (req, res) => {
 export const createIdentifier = async (req, res) => {
   try {
     const identifier = await Identifier.create({
-      cardCode: "1998",
+      cardCode: "2001",
       customer: "627b6537513e9b426b2d5bb3",
     });
     identifier.save();
